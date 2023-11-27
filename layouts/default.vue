@@ -1,8 +1,8 @@
 <template>
-    <div>
-      <NuxtLoadingIndicator />
+  <div>
+    <NuxtLoadingIndicator />
 
     <slot />
-
-    </div>
-  </template>
+    <AppFooter />
+  </div>
+</template>

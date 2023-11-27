@@ -14,6 +14,7 @@ export default {
     },
     extend: {
       colors: {
+       'Section-Color': '#E6FFE1',
         primary :{
           50: "#fffde8",
           100: "#fff8b9",
