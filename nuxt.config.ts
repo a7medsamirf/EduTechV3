@@ -17,7 +17,14 @@ export default defineNuxtConfig({
     layoutTransition: { name: 'layout', mode: 'out-in' }
   },
   
-  css: ['~/assets/css/main.css'],
+  css: [
+    '~/assets/scss/main.scss',
+    '~/assets/css/main.css'
+  
+  ],
+  plugins: [
+
+  ],
   components: [{ path: '~/components', pathPrefix: false,},],
   postcss: {
     plugins: {
